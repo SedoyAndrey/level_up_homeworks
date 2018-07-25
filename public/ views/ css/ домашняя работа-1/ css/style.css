@@ -1,0 +1,55 @@
+html {
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+}
+td {
+  padding: 16px;
+}
+/*Heading style*/
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    font-size: 130%;
+}
+h5 {
+    font-size: 2vw;
+}
+h6 {
+    font-size: 2vh;
+}
+/*Heading style END*/
+/*Table style*/
+td {
+    font-family: sans-serif;
+}
+tr:nth-child(even) {
+    font-weight: 100;
+    font-style: normal;
+}
+td:first-letter {
+    text-transform: capitalize;
+    color: red;
+}
+td:nth-of-type(1n+5) {
+    font-weight: bold;
+    font-style: italic;
+    font-family: Tahoma;
+}
+tr:nth-of-type(2n){
+    background-color: #ddd;
+}
+span {
+    font-weight: normal;
+    font-style: normal;
+}
+/*Table style END*/
