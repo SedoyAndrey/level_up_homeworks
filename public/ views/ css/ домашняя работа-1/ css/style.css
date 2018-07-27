@@ -1,55 +1,90 @@
 html {
+  height: 100%;
   font-size: 16px;
 }
 
-table {
-  width: 100%;
+body {
+  height: 100%;
+  color: #444;
+  box-sizing: border-box;
 }
-td {
-  padding: 16px;
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
-/*Heading style*/
-h1 {
-    font-size: 3em;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+    font-family: Arial, sans-serif;
 }
-h2 {
-    font-size: 2rem;
+
+.content {
+  flex: 1 0 auto;
 }
-h3 {
-    font-size: 25px;
+
+header {
+  background-color: #3F51B5;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
-h4 {
-    font-size: 130%;
+
+footer {
+  flex-shrink: 0;
+  background-color: #3F51B5;
+  color: #fff;
 }
-h5 {
-    font-size: 2vw;
+
+/* Your styles go below */
+
+.nav-bar {
+    margin: 20px;
 }
-h6 {
-    font-size: 2vh;
+.nav-bar a:nth-child(4n) {
+    padding-right: 65%;
 }
-/*Heading style END*/
-/*Table style*/
-td {
-    font-family: sans-serif;
-}
-tr:nth-child(even) {
-    font-weight: 100;
-    font-style: normal;
-}
-td:first-letter {
-    text-transform: capitalize;
-    color: red;
-}
-td:nth-of-type(1n+5) {
+.content h1 {
     font-weight: bold;
-    font-style: italic;
-    font-family: Tahoma;
+    font-size: 29px;
+    padding: 20px;
 }
-tr:nth-of-type(2n){
-    background-color: #ddd;
+table tr td{
+    border: 1px solid gray;
+    padding: 10px 30px;
 }
-span {
-    font-weight: normal;
-    font-style: normal;
+.wrap-center {
+    margin: 0 auto;
 }
-/*Table style END*/
+article h2 {
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+article p {
+    padding: 20px;
+}
+p::first-letter {
+    margin-left: 15px;
+}
+form input {
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 2px 5px;
+}
+form button {
+    border: 1px solid gray;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 4px 10px;
+}
+button:hover {
+    border: 1px solid red;
+}
+footer {
+    text-align: center;
+}
+footer p {
+    margin: 20px;
+}
