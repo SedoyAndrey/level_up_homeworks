@@ -18,7 +18,7 @@ a {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .content {
@@ -38,7 +38,9 @@ footer {
 }
 
 /* Your styles go below */
-
+.wrapper, nav-bar, nav-bar-right, content, wrap-center, section, form, footer {
+  box-sizing: border-box;
+}
 .nav-bar {
   padding: 20px;
 }
@@ -52,7 +54,6 @@ footer {
   font-size: 29px;
   padding: 20px;
 }
-
 table tr td {
   border: 1px solid gray;
   padding: 10px 30px;
@@ -67,8 +68,6 @@ section h2 {
 }
 section p {
   padding: 20px;
-}
-section p {
   text-indent: 15px;
 }
 form {
@@ -80,13 +79,13 @@ form h2 {
 }
 input {
   border: 1px solid gray;
-  padding: 3.8px;
+  height: 25px;
 }
 form button {
   border: 1px solid gray;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 5px;    
+  height: 25px;    
 }
 button:hover {
   border: 1px solid red;
