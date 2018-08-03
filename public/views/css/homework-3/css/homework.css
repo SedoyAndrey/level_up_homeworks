@@ -42,14 +42,14 @@ h2, p {
 }
 header {
   background-color: #3F51B5;
-  padding: 15px 0px;
+  padding: 15px;
   color: #fff;
   position: fixed;
   width: 100%;
   z-index: 1;
 }
-nav {
-  margin-left: 7%;
+nav a {
+	margin-left: 10px;
 }
 nav a.active-nav-bar {
   text-decoration: underline;
@@ -68,12 +68,12 @@ nav a.active-nav-bar {
 }
 .card {
   display: inline-block;
-  width: 30%;
+  width: 33%;
   box-shadow: -2px 2px 10px gray, 2px 2px 10px gray;
   position: relative;
-  margin: 0 1% 2%;
+  margin-bottom: 20px;
 }
-.image img {
+img {
   width: 100%;
 }
 .image button {
@@ -114,7 +114,7 @@ nav a.active-nav-bar {
   text-decoration: underline;
   color: gray;
 }
-.pages-nav a.active-pages-nav {
+span.active-pages-nav {
   text-decoration: none;
 }
 .footer {

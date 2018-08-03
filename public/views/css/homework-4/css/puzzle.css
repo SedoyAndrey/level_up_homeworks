@@ -1,0 +1,68 @@
+* {
+	
+}
+body {
+	padding: 100px;
+}
+.container {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: gray;
+}
+.square-purple {
+	width: 70px;
+	height: 70px;
+	background-color: #8E44AD;
+	margin: 0px 5px 5px 0px;
+	float: left;
+}
+.square-orange {
+	width: 70px;
+	height: 70px;
+	background-color: #F1C40F;
+	margin: 0px 5px 5px 0px;
+	float: right;
+}
+.rectangle-green {
+	width: 145px;
+	height: 70px;
+	background-color: #2ECC71;
+	margin: 0px 5px 5px 0px;
+	float: left;
+}
+.rectangle-green-two {
+	width: 145px;
+	height: 70px;
+	background-color: #2ECC71;
+	margin: 0px 5px 5px 0px;
+	float: righ;
+}
+.rectangle-red {
+	width: 70px;
+	height: 145px;
+	background-color: #E74C3C;
+	margin: 0px 5px 5px 0px;
+	float: right;
+}
+.rectangle-red-two {
+	width: 70px;
+	height: 145px;
+	background-color: #E74C3C;
+	margin: 0px 5px 5px 0px;
+	float: right;
+}
+.rectangle-blue {
+	width: 70px;
+	height: 220px;
+	background-color: #3498DB;
+	margin: 0px 5px 5px 0px;
+	float: left;
+}
+.rectangle-blue-two {
+	width: 220px;
+	height: 70px;
+	background-color: #3498DB;
+	margin: 0px 5px 5px 0px;
+	float: right;
+}
