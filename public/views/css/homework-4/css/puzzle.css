@@ -1,68 +1,60 @@
-* {
-	
-}
+
 body {
-	padding: 100px;
+  padding-top: 200px;
 }
 .container {
-	width: 300px;
-	height: 300px;
-	margin: 0 auto;
-	background-color: gray;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+.container div {
+  margin: 0px 5px 5px 0px;
 }
 .square-purple {
-	width: 70px;
-	height: 70px;
-	background-color: #8E44AD;
-	margin: 0px 5px 5px 0px;
-	float: left;
-}
-.square-orange {
-	width: 70px;
-	height: 70px;
-	background-color: #F1C40F;
-	margin: 0px 5px 5px 0px;
-	float: right;
+  width: 70px;
+  height: 70px;
+  background-color: #8E44AD;
+  float: left;
 }
 .rectangle-green {
-	width: 145px;
-	height: 70px;
-	background-color: #2ECC71;
-	margin: 0px 5px 5px 0px;
-	float: left;
-}
-.rectangle-green-two {
-	width: 145px;
-	height: 70px;
-	background-color: #2ECC71;
-	margin: 0px 5px 5px 0px;
-	float: righ;
+  width: 145px;
+  height: 70px;
+  background-color: #2ECC71;
+  float: left;
 }
 .rectangle-red {
-	width: 70px;
-	height: 145px;
-	background-color: #E74C3C;
-	margin: 0px 5px 5px 0px;
-	float: right;
-}
-.rectangle-red-two {
-	width: 70px;
-	height: 145px;
-	background-color: #E74C3C;
-	margin: 0px 5px 5px 0px;
-	float: right;
+  width: 70px;
+  height: 145px;
+  background-color: #E74C3C;
+  float: right;
 }
 .rectangle-blue {
-	width: 70px;
-	height: 220px;
-	background-color: #3498DB;
-	margin: 0px 5px 5px 0px;
-	float: left;
+  width: 70px;
+  height: 220px;
+  background-color: #3498DB;
+  float: left;
+}
+.square-orange {
+  width: 70px;
+  height: 70px;
+  background-color: #F1C40F;
+  float: right;
+}
+.rectangle-red-two {
+  width: 70px;
+  height: 145px;
+  background-color: #E74C3C;
+  float: left;
 }
 .rectangle-blue-two {
-	width: 220px;
-	height: 70px;
-	background-color: #3498DB;
-	margin: 0px 5px 5px 0px;
-	float: right;
+  width: 220px;
+  height: 70px;
+  background-color: #3498DB;
+  float: left;
+}
+.rectangle-green-two {
+  width: 145px;
+  height: 70px;
+  background-color: #2ECC71;
+  float: right;
 }
