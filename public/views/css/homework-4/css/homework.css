@@ -39,7 +39,15 @@ footer {
   border-top-right-radius: 3px; - for card image */
 
 /* Your styles go below */
-
+/*
+body {
+  background-image: url(../images/intro.jpg);
+	height: 450px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+*/
 .content {
 	width: 1170px;
 	margin: 0 auto;
@@ -77,13 +85,6 @@ footer {
 .active {
 	border-bottom: 2px solid #f7e707;
 	padding: 17px 0px;
-}
-.bg-image {
-	background-image: url(../images/intro.jpg);
-	height: 450px;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
 }
 /*----- Cards -----*/
 
