@@ -58,12 +58,17 @@ body {
 }
 .header {
 	background-color: #26cc42;
-	padding: 20px 0;
 	box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 .nav-bar {
 	text-transform: uppercase;
 	color: #fff;
+	line-height: 3;
+}
+.nav-bar .active {
+	display: inline-block;
+	height: 50px;
+	border-bottom: 2px solid #f7e707;
 }
 .nav-bar-margin {
 	margin-right: 10px;
@@ -71,10 +76,6 @@ body {
 .nav-bar-login {
 	margin-left: 655px;
 	text-transform: none;
-}
-.active {
-	border-bottom: 2px solid #f7e707;
-	padding-bottom: 17px;
 }
 .bg-image {
 	background-image: url(../images/intro.jpg);
