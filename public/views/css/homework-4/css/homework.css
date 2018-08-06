@@ -57,7 +57,6 @@ body {
 .header {
 	background-color: #26cc42;
 	box-shadow: 0 2px 5px rgba(0,0,0,.26);
-	padding: 20px 0;
 }
 .nav-bar {
 	text-transform: uppercase;
@@ -65,15 +64,17 @@ body {
 }
 .nav-bar .active {
 	display: inline-block;
-	border-bottom: 2px solid #f7e707;
+	border-bottom-color: #f7e707;
 }
 .nav-bar-margin {
-	margin-right: 10px;
-	height: 40px;
-	margin-bottom: -20px
+	display: inline-block;
+  vertical-align: baseline;
+  margin-right: 10px;
+  border-bottom: 2px solid transparent;
+  line-height: 60px;
 }
 .nav-bar-login {
-	margin-left: 655px;
+	margin-left: 640px;
 	text-transform: none;
 }
 .bg-image {
@@ -148,11 +149,12 @@ body {
 	background-color: #26cc42;
 	padding: 12px;
 	border-radius: 3px;
+	display: inline-block;
 }
 .load-more-button {
 	display: inline-block;
 	text-align: center;
-	padding: 30px 0 50px;
+	padding: 0px 0px 40px;
 }
 .center-button {
 	text-align: center;
