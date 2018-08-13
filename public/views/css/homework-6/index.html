@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<title>Gradient BEM</title><style>a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,td,th{text-align:left;font-weight:400;vertical-align:middle}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}button,input,optgroup,select,textarea{background:0 0;border:0;padding:0;margin:0;font:inherit;color:inherit;box-shadow:none}button{height:auto;cursor:pointer}button:focus{outline:0}button::-moz-focus-inner{outline:0;border:0;padding:0}
-  </style>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-	<div class="wrapper">
-		<header></header>
-		<div class="container">
-			<main class="main">
-				<div class="content">
-					<div class="info">
-						<div class="info__row">
-							<div class="info__sprite info__sprite--pos1"></div>
-							<p class="info__text">
-								Smile
-							</p>
-							<div class="info__special">
-								<span class="special--color special--color_1">Approved</span>
-							</div>
-						</div>
-						<div class="info__row">
-							<div class="info__sprite info__sprite--pos2"></div>
-							<p class="info__text">
-								Edit
-							</p>
-							<div class="info__special">
-								<span class="special--color special--color_2">Pending</span>
-							</div>
-						</div>
-						<div class="info__row info__row--height">
-							<div class="info__sprite info__sprite--pos3"></div>
-							<p class="info__text info__text--mod">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia quo molestiae maiores, voluptate perspiciatis cupiditate eveniet beatae neque autem. Optio temporibus!
-							</p>
-							<div class="info__special">
-								<span class="special--color special--color_3">Error</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</main>
-		</div>
-		<div class="circle-gradient">
-			<div class="content">
-				<section class="section">
-					<div class="circle"></div>
-				</section>
-			</div>
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gradient BEM</title><style>a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,td,th{text-align:left;font-weight:400;vertical-align:middle}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}button,input,optgroup,select,textarea{background:0 0;border:0;padding:0;margin:0;font:inherit;color:inherit;box-shadow:none}button{height:auto;cursor:pointer}button:focus{outline:0}button::-moz-focus-inner{outline:0;border:0;padding:0}
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="info">
+          <ul class="info-list">
+            <li class="info-list__item">
+              <div class="info--sprite info--sprite_m1">
+              </div>
+              <div class="info--text">
+                <p>Smile</p>
+              </div>
+              <div class="info--special">
+                <p class="info--btn btn-bg_1">Approved</p>
+              </div>
+            </li>
+            <li class="info-list__item">
+              <div class="info--sprite info--sprite_m2">
+              </div>
+              <div class="info--text">
+                <p>Edit</p>
+              </div>
+              <div class="info--special">
+                <p class="info--btn btn-bg_2">Pending</p>
+              </div>
+            </li>
+            <li class="info-list__item">
+              <div class="info--sprite info--sprite_m3">	
+              </div>
+              <div class="info--text">
+                <p class="info--text_m">Lorem ipsum dolor sit amet, consectetur adipisicing is   possimus, velit vero nostrum aliquid accusantium quo est aspernatur deserunt   animi officiis nemo asperiores expedita repellat cumque.
+                </p>
+              </div>
+              <div class="info--special">
+                <p class="info--btn btn-bg_3">Error</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="circle">
+          <div class="circle__shadow">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
