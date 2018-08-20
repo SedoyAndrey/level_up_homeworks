@@ -43,6 +43,9 @@ a {
 /* Your styles go below */
 
 /* Grid */
+.content {
+	padding: 20px 0;
+}
 .container {
   margin: 0 auto;
   width: 100%;
@@ -258,9 +261,7 @@ a {
   }
 }
 /* Grid (END) */
-.header {
-	margin-bottom: 30px;
-}
+
 .header, .footer {
   height: 60px;
   background-color: #4770b7;
@@ -288,7 +289,6 @@ a {
   padding-bottom: 12px;
 }
 .input-hidden {
-	background-color: #fff;
 	display: none;
 }
 label:before {
@@ -344,7 +344,7 @@ input:checked + .checkbox:after {
 	border-top-right-radius: 4px;
 	position: relative;
 }
-.card__image--title {
+.card__title {
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
@@ -355,8 +355,9 @@ input:checked + .checkbox:after {
 	padding: 25px;
 	background-color: #fff;
 }
-.card__title {
+.short__title {
 	color: dimgray;
+	font-size: 17px;
 }
 .card__desc {
 	padding: 15px 0;
@@ -364,9 +365,7 @@ input:checked + .checkbox:after {
 }
 .card__button {
 	display: inline-block;
-}
-.card__button:last-child {
-	margin-left: 20px;
+	padding: 5px 7px;
 }
 .button {
 	color: green;
