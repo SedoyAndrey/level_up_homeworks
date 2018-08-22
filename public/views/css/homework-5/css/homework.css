@@ -297,6 +297,7 @@ label:before {
 }
 input:checked + label:before {
 	 background-color: #4580e0;
+	border: none;
 }
 .checkbox {
   display: block;
@@ -308,7 +309,7 @@ input:checked + label:before {
 .checkbox:before {
   content: "";
   margin-top: -10px;
-  border: 2px solid #444;
+  border: 1px solid #444;
   border-radius: 3px;
   width: 20px;
   height: 20px;
@@ -365,7 +366,7 @@ input:checked + .checkbox:after {
 }
 .card__button {
 	display: inline-block;
-	padding: 5px 7px;
+	padding: 7px 10px;
 }
 .button {
 	color: green;

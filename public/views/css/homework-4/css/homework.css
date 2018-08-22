@@ -47,7 +47,8 @@ body {
 	padding: 0px 15px;
 }
 .row {
-  margin: 0px -15px;
+  margin: 10px -15px;
+	font-size: 0px;
 }
 .column {
   width: 25%;
