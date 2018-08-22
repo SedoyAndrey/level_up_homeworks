@@ -1,117 +1,135 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: sans-serif;
-	color: gray;
+  font-family: Roboto, Arial, sans-serif;
+  color: #595959;
 }
 
 .wrapper {
-	min-height: 100%;
+  min-height: 100%;
 }
 
-.content {
-	max-width: 1200px;
-	margin: 0 auto;
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0px 15px;
 }
 
+
+/* Block */
 .info {
-	margin: 100px 0;
+  margin: 150px 0;
 }
 
-.info-list {
-	border: 1px solid #cfc9cf;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 3px 20px 20px -23px rgba(0, 0, 0, .8);
+.info-block {
+  border: 1.5px solid #E9E6E6;
+  box-shadow: 2px 0px 22px 6px rgba(0, 0, 0, 0.15);
 }
 
-.info-list__item {
-	display: block;
-	line-height: ;
-	border-bottom: 1px solid #cfc9cf;
-	position: relative;
-	height: 60px;
+.info-block__row {
+  border-bottom: 1.5px solid #E9E6E6;
+  display: block;
+  padding: 20px 0;
 }
 
-.info-list__item:last-child {
-	border-bottom: none;
-	height: 100%;
-	margin-bottom: 10px;
+.info-block__row:last-child {
+  border: none;
 }
 
-.info--sprite {
-	display: inline-block;
-	height: 35px;
-	width: 40px;
-	background-image: url(../images/SVG-icons.png);
-	position: relative;
-	top: 11px;
-	margin: 0 10px;
+.info__sprite {
+  width: 5%;
+  float: left;
+  display: inline-block;
+  position: relative;
 }
 
-.info--sprite_m1 {
-	background-position: -110px -40px;
-}
-.info--sprite_m2 {
-	background-position: -110px -77px;
-}
-.info--sprite_m3 {
-	background-position: 0px -150px;
-	float: left;
+.info__text {
+  display: inline-block;
+  width: 80%;
+  float: left;
+  height: 100%;
 }
 
-.info--text {
-	display: inline-block;
-  max-width: 1029px;
+.info__special {
+  display: inline-block;
+  width: 15%;
+  text-align: right;
+  padding-right: 20px;
+}
+/* --Block-- */
+
+
+
+/* Element*/
+.sprite-window {
+  background-image: url(../images/SVG-icons.png);
+  height: 35px;
+  width: 35px;
+  margin: auto;
+  position: relative;
+  bottom: 10px;
 }
 
-.info--text_m {
-	float: left;
-	margin-top: 20px;
-	line-height: 1.2;
+.text-position {
+  margin-left: 30px
 }
 
-.info--special {
-	display: inline-block;
-	height: 35px;
-	vertical-align: middle;
-	cursor: progress;
+.special__indicator {
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #fff;
+}
+/* --Element-- */
+
+
+
+/* Modifier*/
+.window--pos-top {
+  background-position: -112px -40px;
 }
 
-.info--btn {
-	background-color: gray;
-	color: #fff;
-	padding: 10px 15px;
-	text-align: left;
-	border-radius: 4px;
-	position: absolute;
-	right: 20px;
+.window--pos-middle {
+  background-position: -110px -77px;
 }
 
-.btn-bg_1 {
-	background-color: #0a874b;
+.window--pos-bottom {
+  background-position: -0px -150px;
 }
 
-.btn-bg_2 {
-	background-color: #FF7F50;
+.indicator--color-top {
+  background-color: green;
 }
 
-.btn-bg_3 {
-	background-color: #FF5733;
-	position: absolute;
-  top: 15px;
+.indicator--color-middle {
+  background-color: orange;
 }
 
+.indicator--color-bottom {
+  background-color: orangered;
+}
+
+.row--height-responsive {
+  display: inline-block;
+  width: 100%;
+}
+/* --Modifier-- */
+
+
+
+/*----- Circle shadow block -----*/
 .circle__shadow {
-	height: 300px;
-	width: 300px;
-	background-color: aliceblue;
-	margin: 0 auto;
-	border-radius: 50%;
-	box-shadow: inset 2px 15px 1px 11px rgba(75, 166, 96, 0.9),
-	inset 0px -15px 1px 11px rgba(43, 130, 207, 0.9),
-	inset 30px -15px 1px 1px rgba(219, 22, 193, 0.9),
-	inset -35px -1px 1px 0px rgba(219, 35, 22, 0.7),
-	2px 15px 1px 11px rgba(75, 166, 96, 0.9),
-	0px -15px 1px 11px rgba(43, 130, 207, 0.9);
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);
+  background-size: 0.375em 0.375em, 0.375em 0.375em, 100% 100%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.circle__element {
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: inset 15px 2px 2px rgba(213, 51, 51, 0.5), inset -15px 2px 2px rgba(323, 81, 11, 0.5);
 }
