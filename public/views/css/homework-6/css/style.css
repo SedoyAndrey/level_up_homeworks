@@ -122,14 +122,8 @@ body {
 .circle__shadow {
   height: 200px;
   width: 200px;
-  background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);
-  background-size: 0.375em 0.375em, 0.375em 0.375em, 100% 100%;
-  margin: auto;
+  background: linear-gradient(80deg, red, orange);
   border-radius: 50%;
-}
-
-.circle__element {
-  height: 100%;
-  border-radius: 50%;
-  box-shadow: inset 15px 2px 2px rgba(213, 51, 51, 0.5), inset -15px 2px 2px rgba(323, 81, 11, 0.5);
+	margin: auto;
+	box-shadow: inset 21px 1px 11px 11px orange;
 }
