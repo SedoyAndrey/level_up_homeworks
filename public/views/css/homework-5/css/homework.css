@@ -366,7 +366,9 @@ input:checked + .checkbox:after {
 }
 .card__button {
 	display: inline-block;
-	padding: 7px 10px;
+	padding: 0 7px;
+	background-color: greenyellow;
+	line-height: 2;
 }
 .button {
 	color: green;
