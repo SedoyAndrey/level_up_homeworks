@@ -277,6 +277,7 @@ a {
   padding: 16px;
   background-color: #fff;
   font-size: 1rem;
+	box-shadow: 1px 1px 5px gray;
 }
 .filter__section {
   margin-bottom: 16px;
