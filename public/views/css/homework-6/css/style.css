@@ -13,12 +13,11 @@ body {
 
 .container {
   max-width: 1100px;
+  min-width: 300px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
-
-/* Block */
 .info {
   margin: 150px 0;
 }
@@ -30,8 +29,7 @@ body {
 
 .info-block__row {
   border-bottom: 1.5px solid #E9E6E6;
-  display: block;
-  padding: 20px 0;
+  padding: 10px;
 }
 
 .info-block__row:last-child {
@@ -39,53 +37,39 @@ body {
 }
 
 .info__sprite {
-  width: 5%;
   float: left;
   display: inline-block;
-  position: relative;
 }
 
 .info__text {
   display: inline-block;
-  width: 80%;
-  float: left;
-  height: 100%;
 }
 
 .info__special {
   display: inline-block;
-  width: 15%;
-  text-align: right;
-  padding-right: 20px;
+  float: right;
 }
-/* --Block-- */
 
-
-
-/* Element*/
 .sprite-window {
   background-image: url(../images/SVG-icons.png);
   height: 35px;
   width: 35px;
-  margin: auto;
-  position: relative;
-  bottom: 10px;
+  float: left;
+  margin-left: 15px;
 }
 
 .text-position {
-  margin-left: 30px
+  float: left;
+  padding: 10px;
 }
 
 .special__indicator {
   padding: 10px 15px;
-  border-radius: 3px;
+  border-radius: 5px;
   color: #fff;
+  float: right;
 }
-/* --Element-- */
 
-
-
-/* Modifier*/
 .window--pos-top {
   background-position: -112px -40px;
 }
@@ -110,22 +94,22 @@ body {
   background-color: orangered;
 }
 
-.row--height-responsive {
-  display: inline-block;
-  width: 100%;
+.text-position--size {
+  margin-top: -35px;
+  margin-left: 50px;
+  margin-right: 80px;
 }
-/* --Modifier-- */
-
 
 
 /*----- Circle shadow block -----*/
+
 .circle {
-    border-radius: 50%;
-    background-image: radial-gradient(red, orange, gray);
-    background-size: 7px 7px;
-    background-repeat: repeat;
-    box-shadow: inset -2px 20px 5px rgba(26, 182,28, 0.8), inset -21px 0px 5px rgba(168, 28,181, 0.8), inset 0px -18px 5px rgba(64, 77,219, 0.8), inset 22px -2px 5px rgba(64, 235,144, 0.8), inset 17px 22px 5px rgba(196, 219,64, 0.8), inset -16px -23px 5px rgba(224, 167,64, 0.8);
-	  margin: 0 auto;
-    height: 300px;
-    width: 300px;
+  border-radius: 50%;
+  background-image: radial-gradient(green, red, black);
+  background-size: 7px 7px;
+  background-repeat: repeat;
+  box-shadow: inset -2px 20px 5px rgba(26, 182, 28, 0.8), inset -21px 0px 5px rgba(168, 28, 181, 0.8), inset 0px -18px 5px rgba(64, 77, 219, 0.8), inset 22px -2px 5px rgba(64, 235, 144, 0.8), inset 17px 22px 5px rgba(196, 219, 64, 0.8), inset -16px -23px 5px rgba(224, 167, 64, 0.8);
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
 }
