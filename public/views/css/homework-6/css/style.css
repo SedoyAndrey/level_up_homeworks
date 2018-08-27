@@ -119,11 +119,13 @@ body {
 
 
 /*----- Circle shadow block -----*/
-.circle__shadow {
-  height: 200px;
-  width: 200px;
-  background: linear-gradient(80deg, red, orange);
-  border-radius: 50%;
-	margin: auto;
-	box-shadow: inset 21px 1px 11px 11px orange;
+.circle {
+    border-radius: 50%;
+    background-image: radial-gradient(red, orange, gray);
+    background-size: 7px 7px;
+    background-repeat: repeat;
+    box-shadow: inset -2px 20px 5px rgba(26, 182,28, 0.8), inset -21px 0px 5px rgba(168, 28,181, 0.8), inset 0px -18px 5px rgba(64, 77,219, 0.8), inset 22px -2px 5px rgba(64, 235,144, 0.8), inset 17px 22px 5px rgba(196, 219,64, 0.8), inset -16px -23px 5px rgba(224, 167,64, 0.8);
+	  margin: 0 auto;
+    height: 300px;
+    width: 300px;
 }
