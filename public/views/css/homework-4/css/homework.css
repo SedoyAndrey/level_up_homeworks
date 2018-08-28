@@ -42,13 +42,11 @@ body {
   margin: 0 -15px;
 }
 
-/*
 .row:after {
   content: "";
   display: block;
   clear: both;
 }
-*/
 .column {
   width: 25%;
   padding: 0px 15px;
