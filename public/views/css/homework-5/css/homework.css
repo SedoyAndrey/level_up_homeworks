@@ -185,7 +185,10 @@ a {
   }
 }
 @media (min-width: 1024px) {
-  .col-md-1 {
+  .filter {
+		height: 2000px;
+	}
+	.col-md-1 {
     width: 8.3333%;
   }
   .col-md-2 {
@@ -223,7 +226,10 @@ a {
   }
 }
 @media (min-width: 1280px) {
-  .col-lg-1 {
+	.filter {
+		height: 1550px;
+	}
+	.col-lg-1 {
     width: 8.3333%;
   }
   .col-lg-2 {
@@ -367,11 +373,11 @@ input:checked + .checkbox:after {
 }
 .card__button {
 	display: inline-block;
+  height: 30px;
 	padding: 0 7px;
-/*	background-color: greenyellow;*/
-	line-height: 2;
 }
 .button {
 	color: green;
 	text-transform: uppercase;
+	line-height: 32px;
 }
