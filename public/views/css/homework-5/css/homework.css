@@ -185,8 +185,8 @@ a {
   }
 }
 @media (min-width: 1024px) {
-  .filter {
-		height: 2000px;
+	form {
+		height: 1960px;
 	}
 	.col-md-1 {
     width: 8.3333%;
@@ -226,8 +226,9 @@ a {
   }
 }
 @media (min-width: 1280px) {
-	.filter {
-		height: 1550px;
+	form {
+		height: 1500px;
+	} {	
 	}
 	.col-lg-1 {
     width: 8.3333%;
