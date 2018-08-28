@@ -72,42 +72,7 @@ a {
   padding: 0 15px;
   font-size: 1rem;
 }
-.col-start-12 {
-  width: 100%;
-}
-.col-start-11 {
-  width: 91.666666%;
-}
-.col-start-10 {
-  width: 83.333333%;
-}
-.col-start-9 {
-  width: 75%;
-}
-.col-start-8 {
-  width: 66.666666%;
-}
-.col-start-7 {
-  width: 58.333333%;
-}
-.col-start-6 {
-  width: 50%;
-}
-.col-start-5 {
-  width: 41.666666%;
-}
-.col-start-4 {
-  width: 33.33333%;
-}
-.col-start-3 {
-  width: 25%;
-}
-.col-start-2 {
-  width: 16.66666%;
-}
-.col-start-1 {
-  width: 8.33333%;
-}
+
 @media (min-width: 544px) {
   .col-mb-1 {
     width: 8.3333%;
