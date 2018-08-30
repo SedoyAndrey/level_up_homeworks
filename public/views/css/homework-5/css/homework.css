@@ -150,9 +150,6 @@ a {
   }
 }
 @media (min-width: 1024px) {
-	form {
-		height: 1960px;
-	}
 	.col-md-1 {
     width: 8.3333%;
   }
@@ -191,10 +188,6 @@ a {
   }
 }
 @media (min-width: 1280px) {
-	form {
-		height: 1500px;
-	} {	
-	}
 	.col-lg-1 {
     width: 8.3333%;
   }
@@ -249,7 +242,7 @@ a {
   padding: 16px;
   background-color: #fff;
   font-size: 1rem;
-	box-shadow: 1px 1px 5px gray;
+	box-shadow: 1px 1px 9px rgba(1, 1, 1, 0.1);
 }
 .filter__section {
   margin-bottom: 16px;
@@ -341,6 +334,10 @@ input:checked + .checkbox:after {
 	display: inline-block;
   height: 30px;
 	padding: 0 7px;
+/*	background-color: red;*/
+}
+ a.button {
+	padding: 10px 0;
 }
 .button {
 	color: green;
