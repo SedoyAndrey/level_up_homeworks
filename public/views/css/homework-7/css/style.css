@@ -4,16 +4,15 @@
 }
 
 .preloader:before {
-  content: "12345678910";
+  content: "";
   position: absolute;
   z-index: 1;
-  font: bold 3em/1 Times;
   top: 50%;
   left: 50%;
   color: white;
   transform: translate(-50%, -50%);
   display: inline-block;
-  width: 0.5em;
+  width: 120px;
   height: 1em;
   overflow: hidden;
   animation: timing 10s infinite step-end;
@@ -24,7 +23,7 @@
   width: 300px;
   height: 300px;
   position: relative;
-	font-size: 40px;
+	font-size: 120px;
 }
 .preloader__inner {
   border-radius: 50%;
@@ -65,50 +64,40 @@
 }
 
 @keyframes timing {
-  10%{
-   text-indent: -.5em;
+  0%{
+   content: '1';	
+   }
+	10%{
+   content: '2';
    }
   20%{
-   text-indent: -1em;
+   content: '3';
    }
   30%{
-   text-indent: -1.5em;
+   content: '4';
    }
   40%{
-   text-indent: -2em;
+   content: '5';
    }
   50%{
-   text-indent: -2.5em;
+   content: '6';
    }
   60%{
-   text-indent: -3em;
+   content: '7';
    }
   70%{
-   text-indent: -3.5em;
+   content: '8';
    }
   80%{
-   text-indent: -4em;
+   content: '9';
    }
   90%{
-   text-indent: -4.5em;
-   width: 1em;
+   content: '10';
    }
 }
 @keyframes rotate-right {
   0% {
     transform: rotateZ(-135deg);
-  }
-  10% {
-    transform: rotateZ(-99deg);
-  }
-  20% {
-    transform: rotateZ(-63deg);
-  }
-  30% {
-    transform: rotateZ(-27deg);
-  }
-  40% {
-    transform: rotateZ(9deg);
   }
   50% {
     transform: rotateZ(45deg);
@@ -124,20 +113,7 @@
   50% {
     transform: rotateZ(135deg);
   }
-  60% {
-    transform: rotateZ(171deg);
-  }
-  70% {
-    transform: rotateZ(207deg);
-  }
-  80% {
-    transform: rotateZ(243deg);
-  }
-  90% {
-    transform: rotateZ(279deg);
-  }
   100% {
     transform: rotateZ(315deg);
   }
 }
-
