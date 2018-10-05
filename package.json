@@ -9,11 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
-    "materialize-css": "^0.100.2",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "express": "^4.16.2",
+    "materialize-css": "^0.100.2",
+    "node-static": "^0.7.11",
+    "server": "^1.0.18"
   },
   "devDependencies": {
     "css-loader": "^0.28.9",
