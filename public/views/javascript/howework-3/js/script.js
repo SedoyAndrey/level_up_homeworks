@@ -25,14 +25,16 @@ if (languageName == 'ECMAScript') {
 
 
 //Получить знак числа.
-var number = prompt('Введите число', '');
+var value = prompt('Введите число!', '');
 
-if (number > 0) {
-  alert(1);
-} else if (number < 0) {
-  alert(-1);
+if (value > 0) {
+  alert('Больше нуля. 1');
+} else if (value < 0) {
+  alert('Меньше нуля. -1');
+} else if (value != true) {
+  alert('Это не число!!!')
 } else {
-  alert(0);
+  alert('Ноль!!!');
 }
 
 
