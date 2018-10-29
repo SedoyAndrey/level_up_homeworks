@@ -1,15 +1,91 @@
- 'use strict'
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  } else {
+    return confirm('Родители разрешили?');
+  }
+}
 
- var admin = name;
- var name = 'Василий';
+function checkAge(age) {
+  return (age > 18) ? true : confirm('Родители разрешили?');
+}
 
- alert(admin);
+function checkAge(age) {
+  return (age > 18) || confirm('Родители разрешили?');
+}
+//-----------------------------------------------------------
 
- var namePlanet = 'Земля';
- var userName = 'Петя';
+function min(a, b) {
+  if (a < b) {
+    return a;
+  } else {
+    return b;
+  }
+}
+//-------------------------------------------------------------
 
-let quantityFrameSecond // количество кадров в секунду;
-let hyphen // соеденительный знак между словами;
-let viewDocument // режим просмотра документа;
-let lastPageNav // необходимость показа последней страницы постраничной навигации;
+function pow(x, n) {
+  var result = x;
+
+  for (var i = 1; i < n; i++) {
+    result *= x;
+  }
+
+  return result;
+}
+
+var x = prompt("x?", '');
+var n = prompt("n?", '');
+
+if (n <= 1) {
+  alert('Степень ' + n +
+    'не поддерживается, введите целую степень, большую 1'
+  );
+} else {
+  alert( pow(x, n) );
+}
+
+//--------------------------------------------------------------
+//Именованные функциональные выражения.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
